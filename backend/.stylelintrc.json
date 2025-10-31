@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-prettier",
+    "stylelint-config-tailwindcss"
+  ],
+  "plugins": ["stylelint-order", "stylelint-config-tailwindcss/plugins"],
+  "rules": {
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": [
+          "tailwind",
+          "apply",
+          "layer",
+          "variants",
+          "responsive",
+          "screen"
+        ]
+      }
+    ],
+    "declaration-block-trailing-semicolon": "always",
+    "declaration-colon-space-after": "always-single-line",
+    "selector-pseudo-element-colon-notation": "double",
+    "order/properties-alphabetical-order": true
+  },
+  "ignoreFiles": ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx"]
+}
