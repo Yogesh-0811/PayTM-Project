@@ -20,6 +20,15 @@ const userSchema = new Schema<UserType>({
     lastName: {type: String, required: true, trim: true},
 });
 
-const UserModel = mongoose.model<UserType>('User', userSchema);
+interface AccountType extends Document{
+    userId: mongoose.Types.ObjectId;
+    balance: number;
+}
 
-export default UserModel;
+const accountSchema = new Schema<AccountType>({
+    userId: {type: Schema.Types.ObjectId, ref: "User", required: true, unique: true},
+    balance: {type: Number, required: true},
+})
+
+export const UserModel = mongoose.model<UserType>('User', userSchema);
+export const AccountModel = mongoose.model<AccountType>('Account', accountSchema);

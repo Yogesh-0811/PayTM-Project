@@ -1,7 +1,7 @@
 import express from "express";
 import {z} from "zod";
 import jwt from "jsonwebtoken";
-import UserModel from "../../db.js";
+import {AccountModel, UserModel} from "../../db.js";
 import { authMiddleware } from "../../midlleware/authMiddleware.js";
 import bcrypt from "bcrypt";
 import type { Request } from "express";
@@ -59,6 +59,11 @@ router.post("/signup", async (req,res)=>{
         });
 
         await newUser.save();
+
+        await AccountModel.create({
+            userId: newUser._id,
+            balance: Math.floor(1+Math.random()*1000)
+        })
 
         const token = jwt.sign({id: newUser._id}, JWT_SECRET, {expiresIn: "1h"});
         res.json({message: "Signup successful",token});
