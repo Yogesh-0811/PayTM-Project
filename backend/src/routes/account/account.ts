@@ -25,6 +25,10 @@ router.post("/transfer", authMiddleware, async (req:any,res)=>{
         return res.status(400).json({message: "Invalid recipient ID"});
     }
 
+    if(to === req.userId){
+        return res.status(400).json({message: "You cannot send money to yourself"});
+    }
+
     const session = await mongoose.startSession();
     session.startTransaction();
 
