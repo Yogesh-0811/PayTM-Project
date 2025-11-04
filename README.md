@@ -186,7 +186,8 @@ Send Money Page with validation alerts
 
 <img width="1919" height="929" alt="Screenshot 2025-11-04 212428" src="https://github.com/user-attachments/assets/c53e0621-7248-495e-b80a-a55a0f7c26bc" />
 
-<img width="1919" height="929" alt="Screenshot 2025-11-04 212428" src="https://github.com/user-attachments/assets/8c032970-9e37-491d-9c6c-60724ae18d7c" />
+<img width="1919" height="926" alt="Screenshot 2025-11-04 212339" src="https://github.com/user-attachments/assets/7dcb7a18-7a42-4850-a1b1-43603a2d1b37" />
+
 
 <img width="1919" height="928" alt="Screenshot 2025-11-04 212740" src="https://github.com/user-attachments/assets/8a15659e-d6dd-4c1b-9236-2d57129b498b" />
 
@@ -209,4 +210,5 @@ Send Money Page with validation alerts
 🧾 License
 
 This project is open-source and available under the MIT License.
+
 
