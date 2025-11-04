@@ -1,5 +1,24 @@
 ﻿# PayTM-Project
 
+ 🖼️ Screenshots
+
+Signup & Signin Page
+Dashboard showing balance and users
+Send Money Page with validation alerts
+
+
+<img width="1919" height="929" alt="Screenshot 2025-11-04 212428" src="https://github.com/user-attachments/assets/c53e0621-7248-495e-b80a-a55a0f7c26bc" />
+
+<img width="1919" height="926" alt="Screenshot 2025-11-04 212339" src="https://github.com/user-attachments/assets/7dcb7a18-7a42-4850-a1b1-43603a2d1b37" />
+
+<img width="1919" height="928" alt="Screenshot 2025-11-04 212740" src="https://github.com/user-attachments/assets/8a15659e-d6dd-4c1b-9236-2d57129b498b" />
+
+<img width="1888" height="351" alt="Screenshot 2025-11-04 212716" src="https://github.com/user-attachments/assets/043b4885-677d-407a-8683-3a9cd7df5091" />
+
+<img width="1919" height="1033" alt="Screenshot 2025-11-04 212755" src="https://github.com/user-attachments/assets/6f304a16-f0fe-46fc-b505-17f2d5b67552" />
+
+<img width="1919" height="542" alt="Screenshot 2025-11-04 212807" src="https://github.com/user-attachments/assets/87a5c397-e557-42e4-ae3b-3f8b6d28c2ab" />
+
  💸 MiniPay — Full Stack Banking Application
 
 A full-stack wallet application that allows users to sign up, sign in, view their balance, and securely transfer money to other users.
@@ -175,27 +194,6 @@ MongoDB transactions with session.startTransaction()
 
 Tailwind CSS for responsive styling
 
-🖼️ Screenshots
-
-Signup & Signin Page
-
-Dashboard showing balance and users
-
-Send Money Page with validation alerts
-
-
-<img width="1919" height="929" alt="Screenshot 2025-11-04 212428" src="https://github.com/user-attachments/assets/c53e0621-7248-495e-b80a-a55a0f7c26bc" />
-
-<img width="1919" height="926" alt="Screenshot 2025-11-04 212339" src="https://github.com/user-attachments/assets/7dcb7a18-7a42-4850-a1b1-43603a2d1b37" />
-
-
-<img width="1919" height="928" alt="Screenshot 2025-11-04 212740" src="https://github.com/user-attachments/assets/8a15659e-d6dd-4c1b-9236-2d57129b498b" />
-
-<img width="1888" height="351" alt="Screenshot 2025-11-04 212716" src="https://github.com/user-attachments/assets/043b4885-677d-407a-8683-3a9cd7df5091" />
-
-<img width="1919" height="1033" alt="Screenshot 2025-11-04 212755" src="https://github.com/user-attachments/assets/6f304a16-f0fe-46fc-b505-17f2d5b67552" />
-
-<img width="1919" height="542" alt="Screenshot 2025-11-04 212807" src="https://github.com/user-attachments/assets/87a5c397-e557-42e4-ae3b-3f8b6d28c2ab" />
 
 🧑‍🏫 Future Improvements
 
@@ -210,5 +208,6 @@ Send Money Page with validation alerts
 🧾 License
 
 This project is open-source and available under the MIT License.
+
 
 
